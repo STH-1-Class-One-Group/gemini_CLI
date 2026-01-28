@@ -1,0 +1,88 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding-top: 20px;
+}
+
+.container {
+    background: #fff;
+    padding: 20px 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 600px;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.controls {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.controls label {
+    font-weight: 500;
+}
+
+.controls input {
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 80px;
+}
+
+.controls button {
+    padding: 8px 15px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.controls button:hover {
+    background-color: #0056b3;
+}
+
+#calendar-container h2 {
+    margin-top: 0;
+    color: #555;
+}
+
+#calendar-grid {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#calendar-grid th, #calendar-grid td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+    width: 14.28%; /* 100 / 7 */
+}
+
+#calendar-grid th {
+    background-color: #f8f9fa;
+    font-weight: 600;
+}
+
+#calendar-grid td {
+    height: 40px;
+}
+
+#calendar-grid td.empty {
+    background-color: #fdfdfd;
+}

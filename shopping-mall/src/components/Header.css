@@ -1,0 +1,16 @@
+.header-search-form {
+  max-width: 600px; /* Adjust as needed */
+}
+
+.header-icons .nav-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 0.8rem;
+  padding: 0 0.5rem;
+}
+
+.header-icons .nav-link i {
+  font-size: 1.2rem;
+  margin-bottom: 0.2rem;
+}

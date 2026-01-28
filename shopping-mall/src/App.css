@@ -1,0 +1,18 @@
+body {
+  font-family: 'Apple SD Gothic Neo', 'Malgun Gothic', '맑은 고딕', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Custom styles for general layout adjustments if needed */
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.App > :not(footer) {
+  flex-shrink: 0;
+}
+.App > footer {
+  margin-top: auto;
+}
